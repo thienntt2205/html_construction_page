@@ -295,7 +295,7 @@ h6,
     margin        : 0 0 20px 0;
     font-size     : 22px;
     line-height   : normal;
-    font-weight   : normal;
+    font-weight   : bold;
     text-transform: capitalize;
 }
 
@@ -337,7 +337,7 @@ hr {
     position  : relative;
     width     : 100%;
     margin    : 0;
-    padding   : 0;
+    padding-top   : 100;
     text-align: left;
     word-wrap : break-word;
 }

@@ -58,7 +58,7 @@ File: Layout CSS
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro {
-	padding: 10px 0;
+	padding: 40px 0;
 }
 
 #pageintro article {
@@ -69,8 +69,8 @@ File: Layout CSS
 }
 
 #pageintro .heading {
-	margin-bottom: 20px;
-	font-size    : 3rem;
+	margin-bottom: 10px;
+	font-size    : 2rem;
 }
 
 #pageintro p {
@@ -79,7 +79,7 @@ File: Layout CSS
 }
 
 #pageintro footer {
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 #pageintro footer form {
