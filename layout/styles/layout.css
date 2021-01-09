@@ -903,6 +903,33 @@ td {
 	border-width: 0 1px;
 }
 
+/* category_table_Propeteries */
+.category_table {
+	-webkit-background-size: cover;
+	background-size        : cover;
+	display                : table;
+	position               : relative;
+	table-layout           : fixed;
+	width                  : 100%;
+}
+
+.category_table_size {
+	display       : table-cell;
+	height        : 100%;
+	left          : 0;
+	pointer-events: none;
+	position      : absolute;
+	top           : 0;
+	width         : 100%;
+}
+
+..category_table_align {
+	display       : table-cell;
+	vertical-align: middle;
+	width         : 100%;
+}
+
+
 
 /* Gallery
 --------------------------------------------------------------------------------------------------------------- */
@@ -921,6 +948,21 @@ td {
 #gallery li {
 	margin-bottom: 30px;
 }
+
+/* IMG properties */
+.category_img {
+	display: block;
+	width  : 100%;
+}
+
+img {
+	border: 0;
+}
+
+.category_img_overflow {
+	overflow: hidden;
+}
+
 
 
 /* Font Awesome Social Icons
@@ -1527,4 +1569,68 @@ table a,
 	.font-x3 {
 		font-size: 1.6rem;
 	}
+}
+
+
+/* ============================================================================================ */
+.tyJCtd {
+	position: relative;
+	width   : 100%;
+}
+
+.yaqOZd:before,
+.IFuOkc:before,
+.IFuOkc:after,
+.zfr3Q:before,
+.baZpAe:before,
+.Zjiec:before {
+	bottom        : 0;
+	content       : "";
+	display       : none;
+	left          : 0;
+	pointer-events: none;
+	position      : absolute;
+	right         : 0;
+	top           : 0;
+}
+
+.fktJzd *,
+.fktJzd *:before,
+.fktJzd *:after {
+	-webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing        : border-box;
+}
+
+@media only screen and (min-width: 768px){
+.hJDwNd-AhqUyc-wNfPc .hJDwNd-AhqUyc-wNfPc {
+    width: 100%;
+}
+}
+.tyJCtd {
+    position: relative;
+    width: 100%;
+}
+.yaqOZd:before, .IFuOkc:before, .IFuOkc:after, .zfr3Q:before, .baZpAe:before, .Zjiec:before {
+    bottom: 0;
+    content: "";
+    display: none;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.jXK9ad-SmKAyb {
+    width: 100%;
+}@media only screen and (min-width: 480px){
+.pSzOP-AhqUyc-wNfPc .pSzOP-AhqUyc-wNfPc {
+    width: 100%;
+}}
+.LS81yb, .oKdM2c {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 1280px;
+    *zoom: 1;
 }
